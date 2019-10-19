@@ -1,6 +1,6 @@
 {
   "name": "safe-parse-list",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Safely parse a string into an array, split by delimiter",
   "author": "Wes Todd <wes@wesleytodd.com>",
   "keywords": [
