@@ -1,8 +1,9 @@
 # Parse comma delimited string to array
 
-[![NPM Version](https://img.shields.io/npm/v/safe-parse-list.svg)](https://npmjs.org/package/safe-parse-list)
-[![NPM Downloads](https://img.shields.io/npm/dm/safe-parse-list.svg)](https://npmjs.org/package/safe-parse-list)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/standard/standard)
+[![NPM Version](https://badgen.net/npm/v/safe-parse-list?icon=npm)](https://npmjs.org/package/safe-parse-list)
+[![NPM Downloads](https://badgen.net/npm/dm/safe-parse-list?icon=npm)](https://npmjs.org/package/safe-parse-list)
+[![JS Standard Style](https://badgen.net/badge/code%20style/standard/blue)](https://github.com/standard/standard)
+[![GitHub Sponsor](https://badgen.net/badge/icon/sponsor/pink?icon=github&label=github)](https://github.com/sponsors/wesleytodd)
 
 ## Usage
 
