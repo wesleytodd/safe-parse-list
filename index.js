@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = function safeParseList (str, options) {
-  if (Array.isArray(str)) {
+  if (typeof str !== 'string') {
     return str
   }
   var opts = options || {}

@@ -34,8 +34,10 @@ suite(pkg.name, () => {
     assert.deepStrictEqual(split('1     2\t\t\t\t3', opts), ['1', '2', '3'])
   })
 
-  test('just return if already array', () => {
+  test('reasonably handles non-string input', () => {
     assert.deepStrictEqual(split(['1', '2', '3']), ['1', '2', '3'])
+    assert.deepStrictEqual(split(), undefined)
+    assert.deepStrictEqual(split(null), null)
   })
 
   test('is fast', () => {
