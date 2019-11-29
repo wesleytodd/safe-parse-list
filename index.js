@@ -1,6 +1,9 @@
 'use strict'
 
 module.exports = function safeParseList (str, options) {
+  if (Array.isArray(str)) {
+    return str
+  }
   var opts = options || {}
   var whitespace = (opts.whitespace ? opts.whitespace : [' ', '\t']).map(function (s) {
     return s.charCodeAt(0)
